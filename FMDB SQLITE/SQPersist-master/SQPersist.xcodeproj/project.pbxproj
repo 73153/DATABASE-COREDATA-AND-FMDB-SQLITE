@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BA86B081A04E6C9003E7006 /* SQPDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA86B021A04E6C9003E7006 /* SQPDatabase.m */; };
+		6BA86B091A04E6C9003E7006 /* SQPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA86B051A04E6C9003E7006 /* SQPObject.m */; };
+		6BA86B0A1A04E6C9003E7006 /* SQPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA86B071A04E6C9003E7006 /* SQPProperty.m */; };
+		9E8775462AD63BAF26AE6FCA /* libPods-SQPersist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F37D85347D907560EBF390C2 /* libPods-SQPersist.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B292B9B1A04C4A500DBB179 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26931D595C159CB3E12DCF4C /* Pods-SQPersist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQPersist.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQPersist/Pods-SQPersist.release.xcconfig"; sourceTree = "<group>"; };
+		6B292B9D1A04C4A500DBB179 /* libSQPersist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQPersist.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA86B011A04E6C9003E7006 /* SQPDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPDatabase.h; sourceTree = "<group>"; };
+		6BA86B021A04E6C9003E7006 /* SQPDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPDatabase.m; sourceTree = "<group>"; };
+		6BA86B031A04E6C9003E7006 /* SQPersist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPersist.h; sourceTree = "<group>"; };
+		6BA86B041A04E6C9003E7006 /* SQPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPObject.h; sourceTree = "<group>"; };
+		6BA86B051A04E6C9003E7006 /* SQPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPObject.m; sourceTree = "<group>"; };
+		6BA86B061A04E6C9003E7006 /* SQPProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPProperty.h; sourceTree = "<group>"; };
+		6BA86B071A04E6C9003E7006 /* SQPProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPProperty.m; sourceTree = "<group>"; };
+		6BBB47B71A04CFC200989381 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BBB47B81A04CFC200989381 /* SQPersist.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQPersist.podspec; sourceTree = "<group>"; };
+		6BBB47BB1A04D37A00989381 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		899C7AA2A57C6D190139CB8A /* Pods-SQPersist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQPersist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQPersist/Pods-SQPersist.debug.xcconfig"; sourceTree = "<group>"; };
+		F37D85347D907560EBF390C2 /* libPods-SQPersist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQPersist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B292B9A1A04C4A500DBB179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8775462AD63BAF26AE6FCA /* libPods-SQPersist.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB6CA2D57C4E7ED30F1DC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				899C7AA2A57C6D190139CB8A /* Pods-SQPersist.debug.xcconfig */,
+				26931D595C159CB3E12DCF4C /* Pods-SQPersist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B292B941A04C4A500DBB179 = {
+			isa = PBXGroup;
+			children = (
+				6BBB47B61A04CFB100989381 /* Specs */,
+				6BA86B001A04E6C9003E7006 /* Sources */,
+				6B292B9E1A04C4A500DBB179 /* Products */,
+				1BB6CA2D57C4E7ED30F1DC61 /* Pods */,
+				7E2F08D391BE0A0E88095DCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B292B9E1A04C4A500DBB179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B292B9D1A04C4A500DBB179 /* libSQPersist.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA86B001A04E6C9003E7006 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6BA86B011A04E6C9003E7006 /* SQPDatabase.h */,
+				6BA86B021A04E6C9003E7006 /* SQPDatabase.m */,
+				6BA86B031A04E6C9003E7006 /* SQPersist.h */,
+				6BA86B041A04E6C9003E7006 /* SQPObject.h */,
+				6BA86B051A04E6C9003E7006 /* SQPObject.m */,
+				6BA86B061A04E6C9003E7006 /* SQPProperty.h */,
+				6BA86B071A04E6C9003E7006 /* SQPProperty.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6BBB47B61A04CFB100989381 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				6BBB47B71A04CFC200989381 /* README.md */,
+				6BBB47B81A04CFC200989381 /* SQPersist.podspec */,
+				6BBB47BB1A04D37A00989381 /* LICENSE.txt */,
+			);
+			name = Specs;
+			sourceTree = "<group>";
+		};
+		7E2F08D391BE0A0E88095DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F37D85347D907560EBF390C2 /* libPods-SQPersist.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B292B9C1A04C4A500DBB179 /* SQPersist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B292BB11A04C4A500DBB179 /* Build configuration list for PBXNativeTarget "SQPersist" */;
+			buildPhases = (
+				0D8D5253CBE8C0CD0F74858E /* Check Pods Manifest.lock */,
+				6B292B991A04C4A500DBB179 /* Sources */,
+				6B292B9A1A04C4A500DBB179 /* Frameworks */,
+				6B292B9B1A04C4A500DBB179 /* CopyFiles */,
+				BF3547EFDE8E8EE001A60167 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQPersist;
+			productName = SQPersist;
+			productReference = 6B292B9D1A04C4A500DBB179 /* libSQPersist.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B292B951A04C4A500DBB179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Christopher Ney";
+				TargetAttributes = {
+					6B292B9C1A04C4A500DBB179 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B292B981A04C4A500DBB179 /* Build configuration list for PBXProject "SQPersist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B292B941A04C4A500DBB179;
+			productRefGroup = 6B292B9E1A04C4A500DBB179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B292B9C1A04C4A500DBB179 /* SQPersist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8D5253CBE8C0CD0F74858E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3547EFDE8E8EE001A60167 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQPersist/Pods-SQPersist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B292B991A04C4A500DBB179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA86B081A04E6C9003E7006 /* SQPDatabase.m in Sources */,
+				6BA86B091A04E6C9003E7006 /* SQPObject.m in Sources */,
+				6BA86B0A1A04E6C9003E7006 /* SQPProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B292BAF1A04C4A500DBB179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B292BB01A04C4A500DBB179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B292BB21A04C4A500DBB179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899C7AA2A57C6D190139CB8A /* Pods-SQPersist.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B292BB31A04C4A500DBB179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26931D595C159CB3E12DCF4C /* Pods-SQPersist.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B292B981A04C4A500DBB179 /* Build configuration list for PBXProject "SQPersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B292BAF1A04C4A500DBB179 /* Debug */,
+				6B292BB01A04C4A500DBB179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B292BB11A04C4A500DBB179 /* Build configuration list for PBXNativeTarget "SQPersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B292BB21A04C4A500DBB179 /* Debug */,
+				6B292BB31A04C4A500DBB179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B292B951A04C4A500DBB179 /* Project object */;
+}

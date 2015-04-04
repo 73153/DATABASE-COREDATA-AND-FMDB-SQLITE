@@ -1,0 +1,11 @@
+
+AppMessage/AppMessage.xcodeproj/xcuserdata/*
+
+*.xcuserstate
+
+AppMessage/AppMessage.xcworkspace/xcuserdata/evermeer.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+*.xccheckout
+
+AppMessage/Pods/*
+
